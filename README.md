@@ -1,11 +1,16 @@
 WeekYear
 ======
-**WeekYear** is php class for common date functions needed in stats bots.  
-
-
+**WeekYear** is a php class for common date functions needed in stats bots.
+             
 ## Download
-* [Version X.Y](https://github.com/username/sw-name/archive/master.zip)
-* Other Versions
+
+Install via composer: 
+
+``composer require bolstad/weekyear``
+
+or download the lates dev code as a zip:
+ https://github.com/bolstad/WeekYear/archive/master.zip
+
 
 ## Usage
 ```$ git clone https://github.com/username/software-project.git
@@ -14,22 +19,16 @@ WeekYear
 ## Contributors
 
 ### Contributors on GitHub
-* [Contributors](https://github.com/username/sw-name/graphs/contributors)
-
-### Translations
-* [Transifex](https://www.transifex.com/projects/p/sw-name/)
-
-### Third party libraries
-* see [LIBRARIES](https://github.com/username/sw-name/blob/master/LIBRARIES.md) files
+* [Contributors](https://github.com/bolstad/WeekYear/graphs/contributors)
 
 ## License 
-* see [LICENSE](https://github.com/username/sw-name/blob/master/LICENSE.md) file
+
+Licenced under MIT (do pretty much whatever you want -  but don't blame me if anything goes wrong).
+
+* see [LICENSE](https://github.com/bolstad/WeekYear/blob/master/LICENSE) file
 
 ## Version 
-* Version X.Y
-
-## How-to use this code
-* see [INSTRUCTIONS](https://github.com/username/sw-name/blob/master/INSTRUCTIONS.md) file
+* Version 1.0
 
 ## Contact
 #### Christian Bolstad
