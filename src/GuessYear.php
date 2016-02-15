@@ -90,11 +90,13 @@ class GuessYear
      * @return string -  date formated by ISO 8601 ( YYYY-MM-DD )
      */
     function getDateForMondayForWeek() {
-
-        if( date('D', strtotime( $this->getDate())) === 'Mon') 
-            return date("Y-m-d");
-        else         
-            return date("Y-m-d",strtotime("last monday ", strtotime( $this->getDate())));
+        if (date( "w",strtotime( $this->getDate()))== 1) {
+            $myDate= date("Y-m-d",strtotime( $this->getDate()));
+        }
+         else {       
+         $myDate= date("Y-m-d",strtotime("last monday", strtotime( $this->getDate())));
+        }
+        return $myDate;
     }
 
     /**
